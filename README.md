@@ -35,14 +35,14 @@ Ce projet vous offre une configuration prête à l'emploi pour démarrer rapidem
    ```
 
 4. **Configurer les fichiers CSS**  
-   Créez ou modifiez le fichier `src/index.css` :
+   Créez ou modifiez le fichier `src/style.css` :
    ```css
    @import "tailwindcss";
    ```
 
 5. **Modifier le fichier main.js**
    ```javascript
-   import './index.css'
+   import './style.css'
    ```
 
 6. **Utiliser les classes Tailwind dans votre HTML**
@@ -74,7 +74,7 @@ Ce projet vous offre une configuration prête à l'emploi pour démarrer rapidem
 tailwindcss-startkit/
 ├── src/
 │   ├── main.js      # Point d'entrée JavaScript
-│   └── index.css    # Style avec import Tailwind CSS
+│   └── style.css    # Style avec import Tailwind CSS
 ├── index.html       # Page HTML principale
 ├── vite.config.js   # Configuration Vite
 └── package.json     # Dépendances et scripts
